@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
 })
 export class ProductListComponent {
   title: string = 'Product List';
+  imageWidth: number = 100;
+  imageMargin: number = 2;
   products: any[]= [
     {
       'productId': 1,
@@ -20,7 +22,7 @@ export class ProductListComponent {
       'description': '8 oz glass bottle',
       'price': 6.99,
       'starRating': 3.2,
-      'imageUrl': './app/assets/images/Kaz_DipMix/BuffaloBlueCheese.jpg'
+      'imageUrl': './assets/images/Kaz_DipMix/BuffaloBlueCheese.jpg'
     },
     {
       'productId': 2,
@@ -35,7 +37,7 @@ export class ProductListComponent {
       'description': '8 oz glass bottle',
       'price': 32.99,
       'starRating': 4.2,
-      'imageUrl': './app/assets/images/Kaz_DipMix/ChipotleCheddar.jpg'
+      'imageUrl': './assets/images/Kaz_DipMix/ChipotleCheddar.jpg'
 
     }
   ];
