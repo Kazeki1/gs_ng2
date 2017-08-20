@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import {IProduct} from './product';
 
 @Component({
   selector: 'pm-products',
-  templateUrl: './product-list.component.html'
+  templateUrl: './product-list.component.html',
+  styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
   title: string = 'Product List';
@@ -10,10 +12,10 @@ export class ProductListComponent {
   imageMargin: number = 2;
   showImage: boolean = false;
   listFilter: string = 'cheese';
-  products: any[]= [
+  products: IProduct[]= [
     {
       'productId': 1,
-      'productName': 'Buffalo Blue Cheese',
+      'productName': 'Buffalo Blue Cheese: ',
       'productQuantity': '20',
       'productCode': '00471-43050',
       'releaseDate': 'March 1, 2017',
