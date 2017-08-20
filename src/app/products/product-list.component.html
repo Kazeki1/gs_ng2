@@ -56,7 +56,8 @@
                 <td>{{product.doSign}}</td>
                 <td>{{product.description}}</td>
                 <td>{{product.price |currency:'USD':true:'1.2-2'}}</td>
-                <td>{{product.starRating}}</td>
+                <td><pm-star [rating]='product.starRating'
+                (ratingClicked)="onRatingClicked($event)"></pm-star></td>
               </tr>
 
             </tbody>
