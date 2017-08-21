@@ -5,8 +5,8 @@ export interface IProduct {
   productCode: string;
   releaseDate: string;
   receiveDate: string;
-  onShelfDate: string;
   expDate: string;
+  onShelfDate: string;
   doSign: string;
   description: string;
   price: number;
