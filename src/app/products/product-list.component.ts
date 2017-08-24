@@ -3,15 +3,16 @@ import {IProduct} from './product';
 import {ProductService} from './product.service';
 
 @Component({
-  selector: 'pm-products',
-  templateUrl: './product-list.component.html'
-  // styleUrls: ['./product-list.component.css']
+  // selector: 'pm-products',
+  templateUrl: './product-list.component.html',
+  styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
   title: string = 'Product List';
-  imageWidth: number = 100;
+  imageWidth: number = 50;
   imageMargin: number = 2;
   showImage: boolean = false;
+  errorMessage: string;
 
   _listFilter: string;
   get listFilter(): string {
@@ -25,7 +26,6 @@ export class ProductListComponent implements OnInit {
   products: IProduct[]= [];
 
   constructor(private _productService: ProductService) {
-    // this.listFilter = 'cheese';
   }
 
   onRatingClicked(message: string): void {
@@ -43,7 +43,12 @@ export class ProductListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.products = this._productService.getProducts();
-    this.filteredProducts = this.products;
+    this._productService.getProducts()
+      .subscribe(
+        products => {
+          this.products = products;
+          this.filteredProducts = this.products;
+        },
+            error => this.errorMessage = <any>error);
   }
 }

@@ -1,32 +1,79 @@
 [
     {
         "productId": 1,
-        "productName": "Buffalo Blue Cheese",
+        "productName": "Buffalo Blue Cheese1",
         "productQuantity": "20",
-        "productCode": "00471-43050",
-        "releaseDate": "March 1, 2017",
-        "receiveDate": "170425",
-        "expDate": "171215",
-        "onShelfDate": "170508",
+        "productCode": "GDN-0021",
+        "releaseDate": "March 11, 2017",
+        "receiveDate": "170421",
+        "expDate": "171211",
+        "onShelfDate": "170501",
         "doSign": "Wm",
         "description": "8 oz glass bottle",
         "price": 6.99,
         "starRating": 3.2,
-        "imageUrl":"./app/assets/images/Kaz_DipMix/BuffaloBlueCheese.jpg"
+        "imageUrl":"../assets/images/Kaz_DipMix/BuffaloBlueCheese.jpg"
     },
     {
         "productId": 2,
         "productName": "Chipotle Cheddar",
         "productQuantity": "20",
-        "productCode": "GDN-0023",
-        "releaseDate": "March 18, 2016",
-        "receiveDate": "170325",
-        "expDate": "171115",
-        "onShelfDate": "170510",
+        "productCode": "GDN-0022",
+        "releaseDate": "March 12, 2016",
+      "receiveDate": "170422",
+      "expDate": "171212",
+      "onShelfDate": "170502",
         "doSign": "WmJ",
         "description": "8 oz glass bottle",
         "price": 32.99,
         "starRating": 4.2,
-        "imageUrl": "./app/assets/images/Kaz_DipMix/ChipotleCheddar.jpg"
-    }
+        "imageUrl": "../assets/images/Kaz_DipMix/ChipotleCheddar.jpg"
+    },
+  {
+    "productId": 3,
+    "productName": "Roasted Red Pepper",
+    "productQuantity": "20",
+    "productCode": "GDN-0023",
+    "releaseDate": "March 13, 2017",
+    "receiveDate": "170423",
+    "expDate": "171213",
+    "onShelfDate": "170503",
+    "doSign": "Wm",
+    "description": "8 oz glass bottle",
+    "price": 7.99,
+    "starRating": 5.4,
+    "imageUrl":"../assets/images/Kaz_DipMix/RoastedRedPepper.jpg"
+  },
+  {
+    "productId": 4,
+    "productName": "Sriracha & Onion",
+    "productQuantity": "20",
+    "productCode": "GDN-0024",
+    "releaseDate": "March 14, 2016",
+    "receiveDate": "170424",
+    "expDate": "171214",
+    "onShelfDate": "170504",
+    "doSign": "WmJ",
+    "description": "8 oz glass bottle",
+    "price": 8.99,
+    "starRating": 3.4,
+    "imageUrl": "../assets/images/Kaz_DipMix/Sriracha&Onion.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "Vegetable & Herb",
+    "productQuantity": "20",
+    "productCode": "GDN-0025",
+    "releaseDate": "March 15, 2016",
+    "receiveDate": "170425",
+    "expDate": "171215",
+    "onShelfDate": "170505",
+    "doSign": "WmJ",
+    "description": "8 oz glass bottle",
+    "price": 8.99,
+    "starRating": 3.4,
+    "imageUrl": "../assets/images/Kaz_DipMix/Vegetable&Herb.jpg"
+  }
+
+
 ]

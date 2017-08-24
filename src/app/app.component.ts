@@ -4,9 +4,8 @@ import { Component } from '@angular/core';
   selector: 'pm-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
-
 })
 export class AppComponent {
-  pageTitle = 'Angular: Getting Started';
+  pageTitle = 'Kazeki Products';
 }
 
